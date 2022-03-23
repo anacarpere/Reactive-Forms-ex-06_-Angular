@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form-row{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-form{
+    width: 450px;
+
+}
+
+.col{
+    flex-direction: column;
+}
+
+.grow{
+ width: 100%;
+}
+
+.botaoAddRemove{
+    display: flex;
+    justify-content: center;
+}

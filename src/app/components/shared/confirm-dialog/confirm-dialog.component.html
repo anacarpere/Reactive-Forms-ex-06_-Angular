@@ -1,1 +1,13 @@
-<p>confirm-dialog works!</p>
+<h1 mat-dialog-title>Informações de cadastro</h1>
+<div mat-dialog-content class="dialog">
+  <p>Nome: {{data.name}}</p> 
+  <p>Sobrenome: {{data.lastName}}</p> 
+  <p>Nome de usuário: {{data.userName}}</p>
+  <p>CPF: {{data.cpf}}</p>
+  <p>Telefone: {{data.phone}}</p> 
+  <p>Endereço: {{data.adress}}</p>
+  <p>Complemento: {{data.adress2}}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Fechar</button>
+</div>
